@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+  <FacilityTimeZoneMap>
+    <Facility>India Learning Center</Facility>
+    <TimeZone>India Standard Time</TimeZone>
+  </FacilityTimeZoneMap>
+  <FacilityTimeZoneMap>
+    <Facility>London Learning Center</Facility>
+    <TimeZone>GMT Standard Time</TimeZone>
+  </FacilityTimeZoneMap>
+  <FacilityTimeZoneMap>
+    <Facility>Madrid Learning Center</Facility>
+    <TimeZone>Central Europe Standard Time</TimeZone>
+  </FacilityTimeZoneMap>
+  <FacilityTimeZoneMap>
+    <Facility>Kuala Lumpur Learning Center</Facility>
+    <TimeZone>Singapore Standard Time</TimeZone>
+  </FacilityTimeZoneMap>
+  <FacilityTimeZoneMap>
+    <Facility>St. Charles Learning Center</Facility>
+    <TimeZone>Central Standard Time</TimeZone>
+  </FacilityTimeZoneMap>
+  <FacilityTimeZoneMap>
+    <Facility>Dublin Learning Center</Facility>
+    <TimeZone>GMT Standard Time</TimeZone>
+  </FacilityTimeZoneMap>
+</DataSet>

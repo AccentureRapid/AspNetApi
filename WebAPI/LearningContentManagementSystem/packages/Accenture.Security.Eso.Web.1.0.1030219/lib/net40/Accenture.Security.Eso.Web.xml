@@ -1,0 +1,746 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accenture.Security.Eso.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Accenture.Security.Eso.Web.AccentureClaimTypes">
+            <summary>
+            Constants that enumerate the custom enterprise claims for Accenture Identities
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.CompanyCode">
+            <summary>
+            The company code: https://federation-sts.accenture.com/schemas/claims/1/companycode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.CompanyDescription">
+            <summary>
+            The company description: https://federation-sts.accenture.com/schemas/claims/1/companydescription
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.CostCenterCode">
+            <summary>
+            The cost center code: https://federation-sts.accenture.com/schemas/claims/1/costcentercode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.CostCenterDescription">
+            <summary>
+            The cost center description: https://federation-sts.accenture.com/schemas/claims/1/costcenterdescription
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.CountryCode">
+            <summary>
+            The country code: https://federation-sts.accenture.com/schemas/claims/1/countrycode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.CountryDescription">
+            <summary>
+            The country description: https://federation-sts.accenture.com/schemas/claims/1/countydescription
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.DisplayName">
+            <summary>
+            The display name: https://federation-sts.accenture.com/schemas/claims/1/displayname
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.EmailAddress">
+            <summary>
+            The email address: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.EnterpriseId">
+            <summary>
+            The enterprise id: https://federation-sts.accenture.com/schemas/claims/1/enterpriseid
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.FirstName">
+            <summary>
+            The first name: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.GeographicUnit">
+            <summary>
+            The geographic unit: https://federation-sts.accenture.com/schemas/claims/1/geographicunit
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.GeographicUnitCode">
+            <summary>
+            The geographic unit code: https://federation-sts.accenture.com/schemas/claims/1/geographicunitcode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.InstantMessengerAddress">
+            <summary>
+            The instant messenger address: https://federation-sts.accenture.com/schemas/claims/1/msexchimaddress
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.JobFamilyCode">
+            <summary>
+            The job family code: https://federation-sts.accenture.com/schemas/claims/1/jobfamily
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.JobFamilyDescription">
+            <summary>
+            The job family description: https://federation-sts.accenture.com/schemas/claims/1/jobfamilydescription
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.LastName">
+            <summary>
+            The last name: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.Location">
+            <summary>
+            The location: https://federation-sts.accenture.com/schemas/claims/1/location
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.LocationCode">
+            <summary>
+            The location code: https://federation-sts.accenture.com/schemas/claims/1/locationcode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.LogOffAddress">
+            <summary>
+            The log off address: https://federation-sts.accenture.com/adfs/ls/?wa=wsignout1.0
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.MiddleInitial">
+            <summary>
+            The middle initial: https://federation-sts.accenture.com/schemas/claims/1/middleinitial
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.NonAccentureNumber">
+            <summary>
+            The non accenture number: https://federation-sts.accenture.com/schemas/claims/1/nonaccenturenumber
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.PeopleKey">
+            <summary>
+            The people key: https://federation-sts.accenture.com/schemas/claims/1/peoplekey
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.PersonnelNumber">
+            <summary>
+            The personnel number: https://federation-sts.accenture.com/schemas/claims/1/personnelnumber
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.SapUserId">
+            <summary>
+            The sap user id: https://federation-sts.accenture.com/schemas/claims/1/sapuserid
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.TelephoneNumber">
+            <summary>
+            The telephone number: https://federation-sts.accenture.com/schemas/claims/1/telephonenumber
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.UserPrincipalName">
+            <summary>
+            The user principal name:
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.UserType">
+            <summary>
+            The user type: https://federation-sts.accenture.com/schemas/claims/1/uesrobjectcode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.WorkforceCode">
+            <summary>
+            The workforce code: https://federation-sts.accenture.com/schemas/claims/1/workforcecode
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.WorkforceDescription">
+            <summary>
+            The workforce description: https://federation-sts.accenture.com/schemas/claims/1/workforcedescription
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.Group">
+            <summary>
+            The workforce description: http://schemas.xmlsoap.org/claims/Group
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.BaseUri">
+            <summary>
+            The base SAML claims
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.BaseUri2">
+            <summary>
+            The base uri for accenture claims
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.AccentureClaimTypes.ProductionLogOffAddress">
+            <summary>
+            The production off address
+            </summary>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.EnterpriseUserType">
+            <summary>
+            Specifies the type of user the identity belongs to
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.Unknown">
+            <summary>
+            The identity is unknown
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.Employee">
+            <summary>
+            The identity is an employee
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.Contractor">
+            <summary>
+            The identity is a contractor
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.Application">
+            <summary>
+            The identity is an application
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.Temporary">
+            <summary>
+            The identity is temporary
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.TestAccount">
+            <summary>
+            The identity is a test account
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.NameAlias">
+            <summary>
+            The identity is a name alias
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.RetiredPartner">
+            <summary>
+            The identity is a retired partner
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.Client">
+            <summary>
+            The identity is a client
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Web.EnterpriseUserType.RestrictedContractor">
+            <summary>
+            The identity is a restricted contractor
+            </summary>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.IEnterpriseIdentity">
+            <summary>
+            An extended <see cref="T:System.Security.Principal.IIdentity"/> with custom Accenture claims.
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.IEnterpriseIdentity.GetGroups">
+            <summary>
+            Gets the groups.
+            </summary>
+            <returns>The Groups belonging to the <see cref="T:System.Security.Principal.IIdentity"/>.</returns>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.AllClaims">
+            <summary>
+            Gets all claims.
+            </summary>
+            <value>All the claims belonging to the <see cref="T:System.Security.Principal.IIdentity"/>.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.JobFamilyCode">
+            <summary>
+            Gets the job family code.
+            </summary>
+            <value>The job family code belonging to the <see cref="T:System.Security.Principal.IIdentity"/>.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.JobFamilyDescription">
+            <summary>
+            Gets the job family description.
+            </summary>
+            <value>The job family description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.CompanyCode">
+            <summary>
+            Gets the company code.
+            </summary>
+            <value>The company code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.CompanyDescription">
+            <summary>
+            Gets the company description.
+            </summary>
+            <value>The company description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.CostCenterCode">
+            <summary>
+            Gets the cost center code.
+            </summary>
+            <value>The cost center code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.CostCenterDescription">
+            <summary>
+            Gets the cost center description.
+            </summary>
+            <value>The cost center description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+            <value>The country code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.CountryDescription">
+            <summary>
+            Gets the country description.
+            </summary>
+            <value>The country description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.DisplayName">
+            <summary>
+            Gets the display name.
+            </summary>
+            <value>The display name.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.EmailAddress">
+            <summary>
+            Gets the email address.
+            </summary>
+            <value>The email address.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.EnterpriseId">
+            <summary>
+            Gets the enterprise id.
+            </summary>
+            <value>The enterprise id.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.FirstName">
+            <summary>
+            Gets the first name.
+            </summary>
+            <value>The first name.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.GeographicUnit">
+            <summary>
+            Gets the geographic unit.
+            </summary>
+            <value>The geographic unit.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.GeographicUnitCode">
+            <summary>
+            Gets the geographic unit code.
+            </summary>
+            <value>The geographic unit code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.InstantMessengerAddress">
+            <summary>
+            Gets the instant messenger address.
+            </summary>
+            <value>The instant messenger address.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.LastName">
+            <summary>
+            Gets the last name.
+            </summary>
+            <value>The last name.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.Location">
+            <summary>
+            Gets the location.
+            </summary>
+            <value>The location.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.LocationCode">
+            <summary>
+            Gets the location code.
+            </summary>
+            <value>The location code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.LogOffAddress">
+            <summary>
+            Gets the log off address.
+            </summary>
+            <value>The log off address.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.MiddleInitial">
+            <summary>
+            Gets the middle initial.
+            </summary>
+            <value>The middle initial.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.NonAccentureNumber">
+            <summary>
+            Gets the non accenture number.
+            </summary>
+            <value>The non accenture number.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.OriginalIdentity">
+            <summary>
+            Gets the original identity.
+            </summary>
+            <value>The original identity.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.PeopleKey">
+            <summary>
+            Gets the people key.
+            </summary>
+            <value>The people key.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.PersonnelNumber">
+            <summary>
+            Gets the personnel number.
+            </summary>
+            <value>The personnel number.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.SapUserId">
+            <summary>
+            Gets the sap user id.
+            </summary>
+            <value>The sap user id.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.TelephoneNumber">
+            <summary>
+            Gets the telephone number.
+            </summary>
+            <value>The telephone number.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.UserPrincipalName">
+            <summary>
+            Gets the name of the user principal.
+            </summary>
+            <value>The name of the user principal.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.UserType">
+            <summary>
+            Gets the type of the user.
+            </summary>
+            <value>The type of the user.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.WorkforceCode">
+            <summary>
+            Gets the workforce code.
+            </summary>
+            <value>The workforce code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterpriseIdentity.WorkforceDescription">
+            <summary>
+            Gets the workforce description.
+            </summary>
+            <value>The workforce description.</value>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.IEnterprisePrincipal">
+            <summary>
+            An <see cref="T:System.Security.Principal.IPrincipal"/> that provides access to the <see cref="T:Accenture.Security.Eso.Web.IEnterpriseIdentity"/>.
+            </summary>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.IEnterprisePrincipal.EnterpriseIdentity">
+            <summary>
+            Gets the enterprise identity.
+            </summary>
+            <value>The enterprise identity.</value>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity">
+            <summary>
+            Implementation of <see cref="T:Accenture.Security.Eso.Web.IEnterpriseIdentity"/>
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.#ctor(Microsoft.IdentityModel.Claims.IClaimsIdentity)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity"/> class.
+            </summary>
+            <param name="id">The id.</param>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.GetGroups">
+            <summary>
+            Gets the groups.
+            </summary>
+            <returns>The Groups belonging to the <see cref="T:System.Security.Principal.IIdentity"/>.</returns>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.GetClaim(System.String)">
+            <summary>
+            Gets the claim.
+            </summary>
+            <param name="type">The claim type (URI).</param>
+            <returns>The Claim.</returns>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.AllClaims">
+            <summary>
+            Gets all claims.
+            </summary>
+            <value>All the claims belonging to the <see cref="T:System.Security.Principal.IIdentity"/>.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.CompanyCode">
+            <summary>
+            Gets the company code.
+            </summary>
+            <value>The company code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.CompanyDescription">
+            <summary>
+            Gets the company description.
+            </summary>
+            <value>The company description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.CostCenterCode">
+            <summary>
+            Gets the cost center code.
+            </summary>
+            <value>The cost center code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.CostCenterDescription">
+            <summary>
+            Gets the cost center description.
+            </summary>
+            <value>The cost center description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.CountryCode">
+            <summary>
+            Gets the country code.
+            </summary>
+            <value>The country code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.CountryDescription">
+            <summary>
+            Gets the country description.
+            </summary>
+            <value>The country description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.DisplayName">
+            <summary>
+            Gets the display name.
+            </summary>
+            <value>The display name.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.EmailAddress">
+            <summary>
+            Gets the email address.
+            </summary>
+            <value>The email address.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.EnterpriseId">
+            <summary>
+            Gets the enterprise id.
+            </summary>
+            <value>The enterprise id.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.FirstName">
+            <summary>
+            Gets the first name.
+            </summary>
+            <value>The first name.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.GeographicUnit">
+            <summary>
+            Gets the geographic unit.
+            </summary>
+            <value>The geographic unit.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.GeographicUnitCode">
+            <summary>
+            Gets the geographic unit code.
+            </summary>
+            <value>The geographic unit code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.InstantMessengerAddress">
+            <summary>
+            Gets the instant messenger address.
+            </summary>
+            <value>The instant messenger address.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.JobFamilyCode">
+            <summary>
+            Gets the job family code.
+            </summary>
+            <value>The job family code belonging to the <see cref="T:System.Security.Principal.IIdentity"/>.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.JobFamilyDescription">
+            <summary>
+            Gets the job family description.
+            </summary>
+            <value>The job family description.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.LastName">
+            <summary>
+            Gets the last name.
+            </summary>
+            <value>The last name.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.Location">
+            <summary>
+            Gets the location.
+            </summary>
+            <value>The location.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.LocationCode">
+            <summary>
+            Gets the location code.
+            </summary>
+            <value>The location code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.LogOffAddress">
+            <summary>
+            Gets the log off address.
+            </summary>
+            <value>The log off address.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.MiddleInitial">
+            <summary>
+            Gets the middle initial.
+            </summary>
+            <value>The middle initial.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.NonAccentureNumber">
+            <summary>
+            Gets the non accenture number.
+            </summary>
+            <value>The non accenture number.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.OriginalIdentity">
+            <summary>
+            Gets the original identity.
+            </summary>
+            <value>The original identity.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.PeopleKey">
+            <summary>
+            Gets the people key.
+            </summary>
+            <value>The people key.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.PersonnelNumber">
+            <summary>
+            Gets the personnel number.
+            </summary>
+            <value>The personnel number.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.SapUserId">
+            <summary>
+            Gets the sap user id.
+            </summary>
+            <value>The sap user id.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.TelephoneNumber">
+            <summary>
+            Gets the telephone number.
+            </summary>
+            <value>The telephone number.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.UserPrincipalName">
+            <summary>
+            Gets the name of the user principal.
+            </summary>
+            <value>The name of the user principal.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.UserType">
+            <summary>
+            Gets the type of the user.
+            </summary>
+            <value>The type of the user.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.WorkforceCode">
+            <summary>
+            Gets the workforce code.
+            </summary>
+            <value>The workforce code.</value>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity.WorkforceDescription">
+            <summary>
+            Gets the workforce description.
+            </summary>
+            <value>The workforce description.</value>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.ClaimsEnterprisePrincipal">
+            <summary>
+            Implementation of <see cref="T:Accenture.Security.Eso.Web.IEnterprisePrincipal"/>
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsEnterprisePrincipal.#ctor(Accenture.Security.Eso.Web.ClaimsEnterpriseIdentity)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Accenture.Security.Eso.Web.ClaimsEnterprisePrincipal"/> class.
+            </summary>
+            <param name="enterpriseIdentity">The enterpriseIdentity.</param>
+        </member>
+        <member name="P:Accenture.Security.Eso.Web.ClaimsEnterprisePrincipal.EnterpriseIdentity">
+            <summary>
+            Gets the enterprise identity.
+            </summary>
+            <value>The enterprise identity.</value>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.ClaimsExtensions">
+            <summary>
+            Class ClaimsExtensions
+            </summary>
+            <remarks>These extensions also exist in ThinkTecture.IdentityModel, we are copying them here so we do not need the
+            dependency.</remarks>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsExtensions.GetClaims(Microsoft.IdentityModel.Claims.IClaimsPrincipal)">
+            <summary>
+            Gets user claims.
+            </summary>
+            <param name="user">The user.</param>
+            <returns>user claims.</returns>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsExtensions.HasClaim(Microsoft.IdentityModel.Claims.IClaimsPrincipal,System.String)">
+            <summary>
+            Determines whether the specified user has claim.
+            </summary>
+            <param name="user">The user.</param>
+            <param name="claimType">The claimType.</param>
+            <returns><c> true </c> if the specified user has claim; otherwise, <c> false </c>.</returns>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsExtensions.GetValue(System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Claims.Claim},System.String)">
+            <summary>
+            Gets the value.
+            </summary>
+            <param name="claims">The claims.</param>
+            <param name="claimType">The claimType.</param>
+            <returns>The claim or <c>null</c></returns>
+            <exception cref="T:System.InvalidOperationException">if more than one claim matches the <paramref name="claimType"/>.</exception>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.ClaimsExtensions.GetValues(System.Collections.Generic.IEnumerable{Microsoft.IdentityModel.Claims.Claim},System.String)">
+            <summary>
+            Gets the values.
+            </summary>
+            <param name="claims">The claims.</param>
+            <param name="claimType">Type of the claim.</param>
+            <returns>All the claim values matching the <paramref name="claimType" />.</returns>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.EnterprisePrincipalModule">
+            <summary>
+            Class EnterpriseIdentityModule
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.EnterprisePrincipalModule.SetEnterprisePrincipal">
+            <summary>
+            Sets the enterprise principal on the current <see cref="P:System.Threading.Thread.CurrentPrincipal"/> and <see cref="P:System.Web.HttpContext.User"/> if available.
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.EnterprisePrincipalModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Initializes a module and prepares the module to handle requests.
+            </summary>
+            <param name="context">An <see cref="T:System.Web.HttpApplication"/> that provides access to the methods, properties, and events common to all application objects within an ASP.NET application</param>
+            <exception cref="T:System.ArgumentNullException">when <paramref name="context"/> is <see langword="null"/></exception>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.EnterprisePrincipalModule.Dispose">
+            <summary>
+            Disposes of the resources (other than memory) used by the module that implements <see cref="T:System.Web.IHttpModule" />.
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.EnterprisePrincipalModule.HandlePostAuthenticateRequest(System.Object,System.EventArgs)">
+            <summary>
+            Handles the post authenticate request.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:Accenture.Security.Eso.Web.Startup">
+            <summary>
+            Assembly Startup method called by the WebActivatorEx package to self configure itself in a web environment.
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Web.Startup.PreApplicationStart">
+            <summary>
+            Registers the into the ASP.Net pipeline.
+            </summary>
+        </member>
+    </members>
+</doc>

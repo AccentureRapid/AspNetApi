@@ -1,0 +1,30 @@
+{					
+  "ReturnCode": 0,					
+  "ReturnMessage": "Success",					
+  "Content": [					
+	"FacilityName":"RLC-Bangalore",				
+	"Date": "09/26/2016",				
+	"LocationName": "401"				
+	"Transition":"10",				
+	"DisplayValues":[				
+		{			
+		  "OrderID":"1",			
+		  "SessionName": "IT Strategy College-India",			
+		  "VenueName": "General Session",			
+		  "StartDT": "09/26/2016 09:00:00 AM",			
+		  “EndDate": "09/26/2016 11:00:00 AM",			
+		},			
+		{			
+		  "OrderID":"2",			
+		  "SessionName": "IT Strategy College-India",			
+		  "VenueName": "Introduction",			
+		  "StartDT": "09/26/2016 11:30:00 AM",			
+		  “EndDate": "09/26/2016 01:00:00 PM",			
+		  }			
+	                               ]				
+               ]					
+}					
+					
+			
+					
+					

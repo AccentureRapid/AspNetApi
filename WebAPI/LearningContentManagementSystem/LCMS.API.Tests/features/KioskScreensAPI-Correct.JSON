@@ -1,0 +1,82 @@
+{							
+  "ReturnCode": 0,							
+  "ReturnMessage": "Success",							
+  "Content": [							
+	"FacilityName":"RLC-Bangalore",						
+	"Date": "09/26/2016",						
+	"DisplayValues":[						
+		{					
+			"SessionName":"IT Strategy College-India",				
+			"SessionDetails":				
+			[				
+				{			
+				  "OrderID":"1",			
+				  "VenueName": "General Session",			
+				  "StartDT": "09/26/2016 09:00:00 AM",			
+				  “EndDate": "09/26/2016 11:00:00 AM",			
+				 "LocationName":""ILC-ROOM-001			
+				},			
+				{			
+				  "OrderID":"2",			
+				  "VenueName": "Introduction",			
+				  "StartDT": "09/26/2016 11:30:00 AM",			
+				  “EndDate": "09/26/2016 01:00:00 PM",		
+				 "LocationName":"ILC-ROOM-001"			
+				  },			
+				{			
+				  "OrderID":"3",			
+				  "VenueName": "Deep Dive",			
+				  "StartDT": "09/26/2016 03:00:00 PM",			
+				  “EndDate": "09/26/2016 05:00:00 PM",		
+				 "LocationName":"402"			
+				  },			
+				{			
+				  "OrderID":"4",			
+				  "VenueName": "Networking",			
+				  "StartDT": "09/26/2016 07:00:00 PM",			
+				  “EndDate": "09/26/2016 10:00:00 PM",			
+				 "LocationName":"ILC-NETWORKING-410"			
+				  }			
+			 ]				
+		},					
+		{					
+			"SessionName":"Session2Name",				
+			"SessionDetails":				
+			[				
+				{			
+				  "OrderID":"1",			
+				  "VenueName": "Part 1",			
+				  "StartDT": "09/26/2016 09:00:00 AM",		
+				  “EndDate": "09/26/2016 11:00:00 AM",			
+				 "LocationName":"201"			
+				},			
+				{			
+				  "OrderID":"2",			
+				  "VenueName": "Part 2",			
+				  "StartDT": "09/26/2016 11:30:00 AM",			
+				  “EndDate": "09/26/2016 01:00:00 PM",			
+				 "LocationName":"201"			
+				  },			
+				{			
+				  "OrderID":"3",			
+				  "VenueName": "Part 3",			
+				  "StartDT": "09/26/2016 03:00:00 PM",		
+				  “EndDate": "09/26/2016 05:00:00 PM",		
+				 "LocationName":"201"			
+				  },			
+				{			
+				  "OrderID":"4",			
+				  "VenueName": "Part 4",			
+				  "StartDT": "09/26/2016 07:00:00 PM",		
+				  “EndDate": "09/26/2016 10:00:00 PM",			
+				 "LocationName":"201"			
+				  }			
+			 ]				
+		},					
+	                          ]						
+               ]							
+}							
+				
+			
+					
+					

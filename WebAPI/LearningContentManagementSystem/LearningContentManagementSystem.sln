@@ -1,0 +1,181 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16430A8E-FD44-4740-8A7B-A683E5AC0169}"
+	ProjectSection(SolutionItems) = preProject
+		Lab.testsettings = Lab.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackages", "NugetPackages", "{3E277341-1104-431A-9AD5-E95F72C4AB09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{94201166-8B52-4634-B792-7AC102D90DA3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{6E8C1BE1-A489-4D30-BDF4-74D9684C396D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceController", "ServiceController", "{017C5E69-199D-41BB-A6E9-28083C90C9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Host.IIS", "Services.Host.IIS\Services.Host.IIS.csproj", "{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Host.IIS.Tests", "Services.Host.IIS.Tests\Services.Host.IIS.Tests.csproj", "{3F3CD063-6554-42B8-BE4C-9AC5FC376599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E4053BFC-E64E-48FD-8290-C23AE30FCB8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{780C5C2B-D1B7-4018-8699-CD5902A578DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMS.AnnouncementRepository", "LCMS.AnnouncementRepository\LCMS.AnnouncementRepository.csproj", "{BE68D1E5-E989-4558-9AB3-DC4081E2B255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMS.ServiceController", "LCMS.ServiceController\LCMS.ServiceController.csproj", "{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMS.Common", "LCMS.Common\LCMS.Common.csproj", "{541EA5C1-D561-4E5F-8A40-BE2C5657980B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMS.AnnouncementService", "LCMS.AnnouncementService\LCMS.AnnouncementService.csproj", "{3E587252-0269-4AFD-AD5D-C939ECC2431E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMS.SessionService", "LCMS.SessionService\LCMS.SessionService.csproj", "{BA8821DE-DB56-4DF7-8490-E5B591F27833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCMS.SessionRepository", "LCMS.SessionRepository\LCMS.SessionRepository.csproj", "{82C8FBCF-6405-45CE-9B55-327E90859110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Stage|Any CPU = Stage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{3F3CD063-6554-42B8-BE4C-9AC5FC376599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3CD063-6554-42B8-BE4C-9AC5FC376599}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{3F3CD063-6554-42B8-BE4C-9AC5FC376599}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{3F3CD063-6554-42B8-BE4C-9AC5FC376599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3CD063-6554-42B8-BE4C-9AC5FC376599}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833}.Stage|Any CPU.Build.0 = Stage|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Stage|Any CPU.ActiveCfg = Stage|Any CPU
+		{82C8FBCF-6405-45CE-9B55-327E90859110}.Stage|Any CPU.Build.0 = Stage|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDF1FA36-2675-43F1-8931-DA9502DAA3E6} = {017C5E69-199D-41BB-A6E9-28083C90C9BE}
+		{3F3CD063-6554-42B8-BE4C-9AC5FC376599} = {017C5E69-199D-41BB-A6E9-28083C90C9BE}
+		{BE68D1E5-E989-4558-9AB3-DC4081E2B255} = {6E8C1BE1-A489-4D30-BDF4-74D9684C396D}
+		{20927BDB-D2A8-4EF6-B0D6-FC5E3189F748} = {017C5E69-199D-41BB-A6E9-28083C90C9BE}
+		{541EA5C1-D561-4E5F-8A40-BE2C5657980B} = {780C5C2B-D1B7-4018-8699-CD5902A578DB}
+		{3E587252-0269-4AFD-AD5D-C939ECC2431E} = {E4053BFC-E64E-48FD-8290-C23AE30FCB8E}
+		{BA8821DE-DB56-4DF7-8490-E5B591F27833} = {E4053BFC-E64E-48FD-8290-C23AE30FCB8E}
+		{82C8FBCF-6405-45CE-9B55-327E90859110} = {6E8C1BE1-A489-4D30-BDF4-74D9684C396D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfsus.accenture.com/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LCMS.AnnouncementRepository\\LCMS.AnnouncementRepository.csproj
+		SccProjectTopLevelParentUniqueName1 = LearningContentManagementSystem.sln
+		SccProjectName1 = LCMS.AnnouncementRepository
+		SccLocalPath1 = LCMS.AnnouncementRepository
+		SccProjectUniqueName2 = LCMS.AnnouncementService\\LCMS.AnnouncementService.csproj
+		SccProjectTopLevelParentUniqueName2 = LearningContentManagementSystem.sln
+		SccProjectName2 = LCMS.AnnouncementService
+		SccLocalPath2 = LCMS.AnnouncementService
+		SccProjectUniqueName3 = LCMS.Common\\LCMS.Common.csproj
+		SccProjectTopLevelParentUniqueName3 = LearningContentManagementSystem.sln
+		SccProjectName3 = LCMS.Common
+		SccLocalPath3 = LCMS.Common
+		SccProjectUniqueName4 = LCMS.ServiceController\\LCMS.ServiceController.csproj
+		SccProjectTopLevelParentUniqueName4 = LearningContentManagementSystem.sln
+		SccProjectName4 = LCMS.ServiceController
+		SccLocalPath4 = LCMS.ServiceController
+		SccProjectUniqueName5 = Services.Host.IIS.Tests\\Services.Host.IIS.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = LearningContentManagementSystem.sln
+		SccProjectName5 = Services.Host.IIS.Tests
+		SccLocalPath5 = Services.Host.IIS.Tests
+		SccProjectUniqueName6 = Services.Host.IIS\\Services.Host.IIS.csproj
+		SccProjectTopLevelParentUniqueName6 = LearningContentManagementSystem.sln
+		SccProjectName6 = Services.Host.IIS
+		SccLocalPath6 = Services.Host.IIS
+		SccProjectUniqueName7 = LCMS.SessionService\\LCMS.SessionService.csproj
+		SccProjectTopLevelParentUniqueName7 = LearningContentManagementSystem.sln
+		SccProjectName7 = LCMS.SessionService
+		SccLocalPath7 = LCMS.SessionService
+		SccProjectUniqueName8 = LCMS.SessionRepository\\LCMS.SessionRepository.csproj
+		SccProjectTopLevelParentUniqueName8 = LearningContentManagementSystem.sln
+		SccProjectName8 = LCMS.SessionRepository
+		SccLocalPath8 = LCMS.SessionRepository
+	EndGlobalSection
+EndGlobal

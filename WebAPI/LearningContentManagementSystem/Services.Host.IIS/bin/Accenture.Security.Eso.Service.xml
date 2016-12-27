@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accenture.Security.Eso.Service</name>
+    </assembly>
+    <members>
+        <member name="T:Accenture.Security.Eso.Service.Configurations">
+            <summary>
+            This class will configure services authentication
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.AddMsftJsonWebToken(Thinktecture.IdentityModel.Tokens.Http.AuthenticationConfiguration,System.String,Thinktecture.IdentityModel.Tokens.Http.AuthenticationOptions,Thinktecture.IdentityModel.Tokens.Http.AuthenticationScheme)">
+            <summary>
+            Adds the MSFT JWT.
+            </summary>
+            <param name="configuration">The configuration.</param>
+            <param name="audience">The audience.</param>
+            <param name="options">The options.</param>
+            <param name="scheme">The scheme.</param>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.AddMsftJsonWebToken(Thinktecture.IdentityModel.Tokens.Http.AuthenticationConfiguration,System.String,System.String)">
+            <summary>
+            Adds the MSFT JWT.
+            </summary>
+            <param name="configuration">The configuration.</param>
+            <param name="audience">The audience.</param>
+            <param name="scheme">The scheme.</param>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.AddMsftJsonWebToken(Thinktecture.IdentityModel.Tokens.Http.AuthenticationConfiguration,System.String)">
+            <summary>
+            Adds the MSFT JWT.
+            </summary>
+            <param name="configuration">The configuration.</param>
+            <param name="audience">The audience.</param>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.GetServiceAuthHandler(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Get Authentication Handler.
+            </summary>
+            <param name="config">The HttpConfiguration.</param>
+            <returns>The authentication handler.</returns>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.GetSectionValue(System.String)">
+            <summary>
+            Get the section value from web.config
+            </summary>
+            <param name="key">The section key</param>
+            <returns>The adfs issuer.</returns>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.GetCert(System.String)">
+            <summary>
+            Get the certificate from cert store
+            </summary>
+            <param name="key">The adfs thumbprint</param>
+            <returns>The adfs signing cert.</returns>
+        </member>
+        <member name="T:Accenture.Security.Eso.Service.Configurations.JWTSecurityTokenHandlerWrapper">
+            <summary>
+            JWT Security Token Handler
+            </summary>
+        </member>
+        <member name="F:Accenture.Security.Eso.Service.Configurations.JWTSecurityTokenHandlerWrapper.validationParams">
+            <summary>
+            The validation parameters
+            </summary>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.JWTSecurityTokenHandlerWrapper.#ctor(System.IdentityModel.Tokens.TokenValidationParameters)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Accenture.Security.Eso.Service.Configurations.JWTSecurityTokenHandlerWrapper"/> class.
+            </summary>
+            <param name="validationParams">The validation parameters.</param>
+        </member>
+        <member name="M:Accenture.Security.Eso.Service.Configurations.JWTSecurityTokenHandlerWrapper.ValidateToken(System.IdentityModel.Tokens.SecurityToken)">
+            <summary>
+            Validates the token.
+            </summary>
+            <param name="token">The token.</param>
+            <returns>List of Claims.</returns>
+        </member>
+    </members>
+</doc>

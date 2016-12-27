@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=152368
+  -->
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections xdt:Transform="InsertIfMissing">
+    <section name="microsoft.identityModel" type="Microsoft.IdentityModel.Configuration.MicrosoftIdentityModelSection, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+    <section name="securitySessionConfiguration" type="Thinktecture.IdentityModel.Web.Configuration.SecuritySessionSection, Thinktecture.IdentityModel" xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+  </configSections>
+
+  <securitySessionConfiguration
+    cacheSessionsOnServer="false"
+    sessionTokenCacheType=""
+    useMackineKeyProtectionForSessionTokens="true"
+    defaultSessionDuration="00:00:00"
+    persistentSessionDuration="00:00:00"
+    enableSlidingSessionExpirations="false"
+    overrideWSFedTokenLifetime="false"
+    suppressLoginRedirectsForApiCalls="true"
+    suppressSecurityTokenExceptions="true"
+    xdt:Transform="InsertIfMissing"
+  />
+  
+  <securitySessionConfiguration
+    cacheSessionsOnServer="false"
+    xdt:Transform="SetAttributes(cacheSessionsOnServer)" xdt:Locator="Condition(not(@cacheSessionsOnServer))"
+  />
+  <securitySessionConfiguration
+    sessionTokenCacheType=""
+    xdt:Transform="SetAttributes(sessionTokenCacheType)" xdt:Locator="Condition(not(@sessionTokenCacheType))"
+  />
+  <securitySessionConfiguration
+    useMackineKeyProtectionForSessionTokens="true"
+    xdt:Transform="SetAttributes(useMackineKeyProtectionForSessionTokens)" xdt:Locator="Condition(not(@useMackineKeyProtectionForSessionTokens))"
+  />
+  <securitySessionConfiguration
+    defaultSessionDuration="00:00:00"
+    xdt:Transform="SetAttributes(defaultSessionDuration)" xdt:Locator="Condition(not(@defaultSessionDuration))"
+  />
+  <securitySessionConfiguration
+    persistentSessionDuration="00:00:00"
+    xdt:Transform="SetAttributes(persistentSessionDuration)" xdt:Locator="Condition(not(@persistentSessionDuration))"
+  />
+  <securitySessionConfiguration
+    enableSlidingSessionExpirations="false"
+    xdt:Transform="SetAttributes(enableSlidingSessionExpirations)" xdt:Locator="Condition(not(@enableSlidingSessionExpirations))"
+  />
+  <securitySessionConfiguration
+   overrideWSFedTokenLifetime="false"
+    xdt:Transform="SetAttributes(overrideWSFedTokenLifetime)" xdt:Locator="Condition(not(@overrideWSFedTokenLifetime))"
+  />
+  <securitySessionConfiguration
+   suppressLoginRedirectsForApiCalls="true"
+    xdt:Transform="SetAttributes(suppressLoginRedirectsForApiCalls)" xdt:Locator="Condition(not(@suppressLoginRedirectsForApiCalls))"
+  />
+  <securitySessionConfiguration
+   suppressSecurityTokenExceptions="true"
+    xdt:Transform="SetAttributes(suppressSecurityTokenExceptions)" xdt:Locator="Condition(not(@suppressSecurityTokenExceptions))"
+  />
+
+  <!--this is for wifiim-->
+  <microsoft.identityModel xdt:Transform="InsertIfMissing">
+    <service saveBootstrapTokens="false" xdt:Transform="InsertIfMissing">
+      <federatedAuthentication xdt:Transform="InsertIfMissing">
+        <cookieHandler requireSsl="false" xdt:Transform="InsertIfMissing"></cookieHandler>
+        <wsFederation passiveRedirectEnabled="true"
+                      issuer="http://localhost:{iisexpressport}/_sts"
+                      realm="http://localhost:{iisexpressport}/"
+                      requireHttps="false" xdt:Transform="InsertIfMissing"/>
+        <!-- ENTER APPLICATION URL HERE AND PORT-->
+      </federatedAuthentication>
+      <audienceUris xdt:Transform="InsertIfMissing">
+        <add value="http://localhost:{iisexpressport}/" xdt:Transform="InsertIfMissing" />
+        <!-- ENTER APPLICATION URL HERE-->
+      </audienceUris>
+      <issuerNameRegistry type="Thinktecture.IdentityModel.Tokens.MetadataBasedIssuerNameRegistry, Thinktecture.IdentityModel"  xdt:Transform="InsertIfMissing">
+        <trustedIssuerMetadata issuerName="local sts"
+                                metadataAddress="https://localhost/sts-accenture/FederationMetadata/2007-06/FederationMetadata.xml"  xdt:Transform="InsertIfMissing">
+        </trustedIssuerMetadata>
+      </issuerNameRegistry>
+      <certificateValidation certificateValidationMode="None"  xdt:Transform="InsertIfMissing"/>
+    </service>
+  </microsoft.identityModel>
+  <system.web xdt:Transform="InsertIfMissing">
+    <authorization xdt:Transform="InsertIfMissing">
+      <deny users="?" xdt:Transform="InsertIfMissing"/>
+    </authorization>
+    <httpModules xdt:Transform="InsertIfMissing">
+      <add name="SessionAuthenticationModule" type="Microsoft.IdentityModel.Web.SessionAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+      <add name="WSFederationAuthenticationModule" type="Microsoft.IdentityModel.Web.WSFederationAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+    </httpModules>
+    <httpRuntime requestValidationMode="2.0" xdt:Transform="InsertIfMissing"/>
+  </system.web>
+  <system.webServer xdt:Transform="InsertIfMissing">
+    <validation validateIntegratedModeConfiguration="false" xdt:Transform="InsertIfMissing"/>
+    <modules runAllManagedModulesForAllRequests="true" xdt:Transform="InsertIfMissing">
+      <remove name="FormsAuthentication"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+      <add name="WSFederationAuthenticationModule" type="Microsoft.IdentityModel.Web.WSFederationAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" preCondition="managedHandler"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+      <add name="SessionAuthenticationModule" type="Microsoft.IdentityModel.Web.SessionAuthenticationModule, Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" preCondition="managedHandler"  xdt:Transform="InsertIfMissing" xdt:Locator="Match(name)"/>
+    </modules>
+  </system.webServer>
+</configuration>
